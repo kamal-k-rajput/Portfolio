@@ -7,14 +7,14 @@ import { Projects } from "./components/Projects";
 import Contact from "./components/Contact";
 import { Navbaar } from "./components/Navbaar";
 import { MyCarousal } from "./components/my-carousal/my-carousal.component";
-// import { TitleMessage } from "./components/title-message/title-message.component";
+import { Title } from "./components/title-message/title-message.component";
 import { Footer } from "./components/footer/Footer";
 
 function App() {
   return (
     <div className="App">
       <MyCarousal />
-      {/* <TitleMessage /> */}
+      <Title />
       <Navbaar />
       <About />
       <Skills />

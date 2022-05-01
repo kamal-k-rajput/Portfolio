@@ -20,26 +20,18 @@ const About = () => {
             <Image src={profile} rounded className="profile-image" />
           </Col>
           <Col>
-            {/* { leave here...} */}
             <div className="aobut-name">
               <h6>
-                Hi there! I am<b> Kamal Kishor Rajput</b>{" "}
+                Hi there! I am<h3> Kamal Kishor Rajput</h3>{" "}
               </h6>
-              <p>
+              <br />
+              <h4>
                 I am currently learning full stack web development at Masai
                 School. I am passionate about solving real-world problems and
                 actively looking for opportunities in the field of web
                 development and software engineering.
-              </p>
+              </h4>
             </div>
-            <h3>
-              <a href="mailto:kkrajput1198@gmail.com">kkrajput1198@gmail.com</a>
-            </h3>
-
-            <h3>
-              <a href="tel:9411856388">9411856388</a>
-            </h3>
-            <h3>Bidhuna, U.P, India</h3>
           </Col>
         </Row>
       </Container>

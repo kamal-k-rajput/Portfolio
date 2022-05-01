@@ -8,7 +8,13 @@
 
 .contact-me span {
   margin: 0 10px;
+  color: rgb(74, 74, 74);
 }
- .contact-container{
-     background-color:#1f8ee0;
- }
+
+.contact-me > span:hover {
+  color: black;
+}
+.contact-container {
+  background-color: #1f8ee0;
+  padding: 40px;
+}

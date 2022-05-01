@@ -5,7 +5,7 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div className="contact-container">
-      <Container id="contact" >
+      <Container id="contact">
         <Row>
           <Col>
             <h2>Get In Touch</h2>
@@ -16,14 +16,20 @@ const Contact = () => {
             <br />
             <h5>
               <a href="mailto:kkrajput1198@gmail.com" className="contact-me">
-                <i class="fa fa-envelope"></i>
+                <span>
+                  {" "}
+                  <i class="fa fa-envelope"></i>
+                </span>
                 <span>kkrajput1198@gmail.com</span>
               </a>
             </h5>
 
             <h5>
               <a href="tel:9411856388" className="contact-me">
-                <i class="fa fa-phone"></i>
+                <span>
+                  {" "}
+                  <i class="fa fa-phone"></i>
+                </span>
                 <span>9411856388</span>
               </a>
             </h5>

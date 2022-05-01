@@ -21,7 +21,7 @@ const Footer = () => {
             <i className="fa fa-github"></i>
           </a>
         </div>
-        <div style={{ color: "white", marginLeft: "10px" }}>
+        <div style={{ color: "white", marginLeft: "10px", padding: "10px" }}>
           Created By Kamal Kishor Rajput | © 2022. All Rights Reserved
         </div>
       </div>
