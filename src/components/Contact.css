@@ -1,0 +1,14 @@
+.contact-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.contact-me span {
+  margin: 0 10px;
+}
+ .contact-container{
+     background-color:#1f8ee0;
+ }
