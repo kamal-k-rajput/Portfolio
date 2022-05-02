@@ -68,7 +68,7 @@ export const Title = () => {
           />
         </div>
 
-        <Button className="m-2" variant="success" href={resume} download>
+        <Button className="m-2" variant="success" href={resume} >
           Resume
           <i className="fa fa-download"></i>
         </Button>

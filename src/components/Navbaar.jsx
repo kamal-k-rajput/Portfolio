@@ -1,6 +1,6 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
 import "./Navbar.css";
-import resume from "../assets/files/resume.pdf";
+import "font-awesome/css/font-awesome.min.css";
 export const Navbaar = () => {
   return (
     <div className="navbar-container">
@@ -14,11 +14,7 @@ export const Navbaar = () => {
         className="animate-navbar nav-theme justify-content-between"
       >
         <Container>
-          <Navbar.Brand>
-            <a href={resume} download>
-              Resume
-            </a>
-          </Navbar.Brand>
+          <Navbar.Brand></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
