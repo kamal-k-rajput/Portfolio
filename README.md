@@ -1,5 +1,18 @@
-# Getting Started with Create React App
 
+<h3>Hello I am </h3>
+<h1>Kamal Kishor Rajput</h1>
+<p>This is repo of my portfolio.</p>
+<a href="https://main.d3ghyjc9c1wf3b.amplifyapp.com">Check Here<a/>
+  <br/>
+  
+  <p>I am full Stack Web developer<p/>
+  <p>Learning MERN Stack at Masai School Bengaluru, Karnataka<p/>
+  
+  <h2>About Portfolio</h2>
+  <p>I made the portfolio using React and Host at Amazon Web Services.</p>
+  <p>Here You can check my previous work and Projects.</p> <a href="https://main.d3ghyjc9c1wf3b.amplifyapp.com/#projects">Projects</a>
+  
+  # Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
