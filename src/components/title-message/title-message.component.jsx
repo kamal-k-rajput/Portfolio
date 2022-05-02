@@ -60,7 +60,7 @@ export const Title = () => {
             }}
             startDelay={2000}
             cursorColor="#3F3D56"
-            multiText={["Learner", "Full-Stack web devepoer"]}
+            multiText={["Learner", "Full-Stack web developer"]}
             multiTextDelay={1000}
             typeSpeed={30}
             loop="true"
@@ -68,7 +68,7 @@ export const Title = () => {
           />
         </div>
 
-        <Button className="m-2" variant="success" href={resume} >
+        <Button className="m-2" variant="success" href={resume} target="_blank">
           Resume
           <i className="fa fa-download"></i>
         </Button>
