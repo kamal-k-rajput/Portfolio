@@ -1,8 +1,7 @@
 import React from "react";
 import TypeWriterEffect from "react-typewriter-effect";
-import { Button } from "react-bootstrap";
+
 import styled from "styled-components";
-import resume from "../../assets/files/resume.pdf";
 export const Title = () => {
   const myRef = document.querySelector(".scrollable-div");
   const TitleMessage = styled.h1`
@@ -68,10 +67,7 @@ export const Title = () => {
           />
         </div>
 
-        <Button className="m-2" variant="success" href={resume} target="_blank">
-          Resume
-          <i className="fa fa-download"></i>
-        </Button>
+        
       </div>
     </TitleMessage>
   );

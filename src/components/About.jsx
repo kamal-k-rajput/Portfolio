@@ -15,7 +15,7 @@ const About = () => {
         </Row>
       </Container>
       <Container className="bgi">
-        <Row>
+        <Row className="about-container">
           <Col>
             <Image src={profile} rounded className="profile-image" />
           </Col>
@@ -25,12 +25,12 @@ const About = () => {
                 Hi there! I am<h3> Kamal Kishor Rajput</h3>{" "}
               </h6>
               <br />
-              <h4>
+              <p>
                 I am currently learning full stack web development at Masai
                 School. I am passionate about solving real-world problems and
                 actively looking for opportunities in the field of web
                 development and software engineering.
-              </h4>
+              </p>
             </div>
           </Col>
         </Row>

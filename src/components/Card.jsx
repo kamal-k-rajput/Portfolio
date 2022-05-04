@@ -13,6 +13,8 @@ const Card = ({ data }) => {
             <a
               className="btn btn-outline-dark btn-block btn-sm"
               href={data.demoLink}
+              target="_blank"
+              rel="noreferrer"
             >
               Demo
             </a>
@@ -21,6 +23,8 @@ const Card = ({ data }) => {
             <a
               className="btn btn-outline-dark btn-block btn-sm"
               href={data.codeLink}
+              target="_blank"
+              rel="noreferrer"
             >
               Github Code
             </a>

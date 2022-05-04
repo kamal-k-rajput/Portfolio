@@ -7,17 +7,29 @@ const Footer = () => {
     <>
       <div style={{ backgroundColor: "black" }}>
         <div className="wrapper">
-          <a href="https://twitter.com/kkrjpt" className="icon twitter">
+          <a
+            href="https://twitter.com/kkrjpt"
+            className="icon twitter"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fa fa-twitter"></i>
           </a>
 
           <a
             href="https://www.linkedin.com/in/kamal-k-rajput/"
             className="icon linkedin"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <i class="fa fa-linkedin"></i>
           </a>
-          <a href="https://github.com/kamal-k-rajput" className="icon github">
+          <a
+            href="https://github.com/kamal-k-rajput"
+            className="icon github"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fa fa-github"></i>
           </a>
         </div>

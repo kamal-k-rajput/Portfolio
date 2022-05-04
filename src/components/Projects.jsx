@@ -20,8 +20,8 @@ export const Projects = () => {
         ],
       },
       {
-        name: "Sugr Cosmetcs Clone",
-        desc: "Sugr Cosmetcs is an online marketplace that sells beauty products.  ",
+        name: "Sugar Cosmetcs Clone",
+        desc: "Sugar Cosmetcs is an online marketplace that sells beauty products.  ",
         img: sugercosmetics,
         demoLink: "https://sugar-cosmetic.netlify.app/",
         codeLink: "https://github.com/hrutugandha/Sugar_Cosmetics_Project.git",
