@@ -5,8 +5,7 @@ h2 {
 .about-container {
   padding: 25px;
 }
-h6,
-p {
+h6, p{
   text-align: left;
 }
 h1 {
@@ -15,9 +14,6 @@ h1 {
 .bgi {
   background-color: #f2f4f5;
 }
-/* .mar-container{
-  margin-top:90px;
-} */
 .profile-image {
   width: 50%;
   border: 1px solid grey;
@@ -26,11 +22,8 @@ h1 {
   .about-container {
     flex-direction: column;
   }
-
+  h3,
   h6 {
-    margin-top: 10px;
-  }
-  h3 {
     margin-top: 10px;
   }
 }
