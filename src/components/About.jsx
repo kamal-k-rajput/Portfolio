@@ -21,9 +21,8 @@ const About = () => {
           </Col>
           <Col>
             <div className="aobut-name">
-              <h6>
-                Hi there! I am<h3> Kamal Kishor Rajput</h3>{" "}
-              </h6>
+              <h6>Hi there! I am </h6>
+              <h3> Kamal Kishor Rajput</h3>
               <br />
               <p>
                 I am currently learning full stack web development at Masai
