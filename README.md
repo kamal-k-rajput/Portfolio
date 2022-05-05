@@ -2,7 +2,7 @@
 <h3>Hello I am </h3>
 <h1>Kamal Kishor Rajput</h1>
 <p>This is repo of my portfolio.</p>
-<a href="https://main.d3ghyjc9c1wf3b.amplifyapp.com">Check Here<a/>
+<a href="https://portfolio.kamalkishor.in">See My Portfolio<a/>
   <br/>
   
   <p>I am full Stack Web developer<p/>
