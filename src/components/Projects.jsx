@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "./Card";
 import potterybarn from "../assets/img/projects/potterybarn.png";
 import sugercosmetics from "../assets/img/projects/sugarcosmetics.png";
-import './Project.css';
+import "./Project.css";
 export const Projects = () => {
   const project = {
     data: [
@@ -13,10 +13,12 @@ export const Projects = () => {
         demoLink: "https://potterybarn-clone.netlify.app/",
         codeLink: "https://github.com/kamal-k-rajput/potterybarn_clone.git",
         techstack: [
-          "/icons/material-ui.svg",
+          "/icons/html-5.svg",
+          "/icons/css-3.svg",
           "/icons/mongodb.svg",
           "/icons/express.svg",
           "/icons/nodejs-icon.svg",
+          "/icons/javascript.svg",
         ],
       },
       {
@@ -25,7 +27,11 @@ export const Projects = () => {
         img: sugercosmetics,
         demoLink: "https://sugar-cosmetic.netlify.app/",
         codeLink: "https://github.com/hrutugandha/Sugar_Cosmetics_Project.git",
-        techstack: ["/icons/html-5.svg", "/icons/css-3.svg"],
+        techstack: [
+          "/icons/html-5.svg",
+          "/icons/css-3.svg",
+          "/icons/javascript.svg",
+        ],
       },
     ],
   };

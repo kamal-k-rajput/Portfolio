@@ -5,7 +5,8 @@ h2 {
 .about-container {
   padding: 25px;
 }
-h6, p{
+h6,
+p {
   text-align: left;
 }
 h1 {
@@ -25,8 +26,11 @@ h1 {
   .about-container {
     flex-direction: column;
   }
-  h3,
+
   h6 {
+    margin-top: 10px;
+  }
+  h3 {
     margin-top: 10px;
   }
 }
