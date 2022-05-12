@@ -7,6 +7,24 @@ export const Projects = () => {
   const project = {
     data: [
       {
+        name: "Expedia Clone",
+        desc: "Expedia is one of the fastest growing online travel portals in Asia, offering travellers an extensive selection of hotels, activities and travel services to meet every budget and activities of every kind at competitive rates..  ",
+        img: sugercosmetics,
+        demoLink: "https://expediacloneunit5.netlify.app/home",
+        codeLink: "https://github.com/kamal-k-rajput/expedia-clone.git",
+        techstack: [
+          "/icons/react.svg",
+          "/icons/css-3.svg",
+          "/icons/javascript.svg",
+          "/icons/npm.svg",
+          "/icons/react.svg",
+          "/icons/mongodb.svg",
+          "/icons/bootstrap.svg",
+          "/icons/nodejs-icon.svg",
+          "/icons/express.svg",
+        ],
+      },
+      {
         name: "Potterybarn Clone",
         desc: "Potterybarn Clone is an e-commerce platform. Which allows the user to search the home furniture of different category & purchase them.",
         img: potterybarn,
