@@ -16,7 +16,7 @@ const Card = ({ data }) => {
               target="_blank"
               rel="noreferrer"
             >
-              Demo
+              Live
             </a>
           </div>
           <div className="col-md-6">
