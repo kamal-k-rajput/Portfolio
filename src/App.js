@@ -9,11 +9,13 @@ import { Navbaar } from "./components/Navbaar";
 import { MyCarousal } from "./components/my-carousal/my-carousal.component";
 import { Title } from "./components/title-message/title-message.component";
 import { Footer } from "./components/footer/Footer";
+import { ThemeDay } from "./components/ThemeDay";
 
 function App() {
   return (
     <div className="App">
       <MyCarousal />
+      <ThemeDay />
       <Title />
       <Navbaar />
       <About />
