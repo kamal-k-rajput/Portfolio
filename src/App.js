@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <MyCarousal />
-      <ThemeDay />
+      {/* <ThemeDay /> */}
       <Title />
       <Navbaar />
       <About />
