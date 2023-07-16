@@ -12,7 +12,7 @@ export const Projects = () => {
     data: [{
       name: "Dainik School",
       desc: "Dainik school is a online school, provide tution from nursery to 8th. I am only person responsible for creating frontend, backend and deploying to aws.",
-      img: yogm,
+      img: dainik,
       demoLink: "https://main.d1iq0a4liey5pk.amplifyapp.com/",
       codeLink: "https://github.com/kamal-k-rajput/dainik_school_frontend",
       techstack: [
