@@ -25,9 +25,9 @@ const About = () => {
               <h3> Kamal Kishor Rajput</h3>
               <br />
               <p>
-                I am currently learning full stack web development at Masai
-                School. I am passionate about solving real-world problems and
-                actively looking for opportunities in the field of web
+                I am currently working as a software engineer at TAAZAA TECH PVT LTD. in Noida.
+                I am passionate about solving real-world problems and
+                actively learning new tools and technologies in the field of web
                 development and software engineering.
               </p>
             </div>
