@@ -1,9 +1,17 @@
 .focus {
   transition: transform 0.3s;
 }
-.skill-container{
-  background-color:#1f8ee0;
+
+.skill-container {
+  /* background-color:red; */
+  background: rgb(12, 0, 17);
+  background: linear-gradient(90deg, rgba(12, 0, 17, 1) 13%, rgba(70, 9, 121, 1) 52%, rgba(0, 0, 0, 1) 100%);
 }
+
+.pb-4 {
+  color: #fff !important;
+}
+
 .focus:hover {
   transform: scale(1.05);
 }
@@ -29,6 +37,7 @@
   font-weight: 500;
   color: #2b0353;
 }
+
 .width-container {
   width: 70%;
   margin: 0 auto;

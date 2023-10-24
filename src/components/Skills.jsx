@@ -1,23 +1,27 @@
 import React from "react";
 import { Row, Col, Card, Image } from "react-bootstrap";
-import L_HTML5 from "../assets/img/skills/html-5.svg";
-import L_CSS3 from "../assets/img/skills/css3.svg";
 
-import L_REACT from "../assets/img/skills/react.svg";
-import L_REDUX from "../assets/img/skills/redux.svg";
-import L_REACT_ROUTER from "../assets/img/skills/react-router.svg";
-import L_MATERIALUI from "../assets/img/skills/material-ui-1.svg";
-
-import L_NODE_JS from "../assets/img/skills/nodejs.svg";
-import L_EXPRESS from "../assets/img/skills/express.svg";
-import L_MONGODB from "../assets/img/skills/mongodb.svg";
-import L_GIT from "../assets/img/skills/git-icon.svg";
-import L_HEROKU from "../assets/img/skills/heroku.svg";
-import L_VERCEL from "../assets/img/skills/vercel.svg";
-import L_GITHUB_PAGES from "../assets/img/skills/github.svg";
-import L_JAVASCRIPT from "../assets/img/skills/javascript.svg";
-import L_NETLIFY from "../assets/img/skills/netlify.svg";
 import "./Skills.css";
+import {
+  L_CSS3,
+  L_HTML5,
+  L_CREATEJS,
+  L_EXPRESS,
+  L_GIT,
+  L_GITHUB_PAGES,
+  L_HEROKU,
+  L_JAVASCRIPT,
+  L_MATERIALUI,
+  L_MONGODB,
+  L_NETLIFY,
+  L_NODE_JS,
+  L_POSTGRESQL,
+  L_REACT,
+  L_REACT_ROUTER,
+  L_REDUX,
+  L_TYPESCRIPT,
+  L_VERCEL,
+} from "../assets";
 
 const Skills = () => {
   const skills = {
@@ -63,6 +67,12 @@ const Skills = () => {
         imgAltText: "Material-UI",
         imgSrc: L_MATERIALUI,
         skillName: "Material-UI",
+      },
+      {
+        link: "https://createjs.com/",
+        imgAltText: "CreateJs",
+        imgSrc: L_CREATEJS,
+        skillName: "CreateJs",
       },
     ],
 
@@ -114,6 +124,12 @@ const Skills = () => {
         imgSrc: L_JAVASCRIPT,
         skillName: "JavaScript",
       },
+      {
+        link: "https://www.typescriptlang.org/",
+        imgAltText: "TypeScript",
+        imgSrc: L_TYPESCRIPT,
+        skillName: "Typescript",
+      },
     ],
     databases: [
       {
@@ -121,6 +137,12 @@ const Skills = () => {
         imgAltText: "MongoDB",
         imgSrc: L_MONGODB,
         skillName: "MongoDB",
+      },
+      {
+        link: "https://www.postgresql.org/",
+        imgAltText: "PostgreSQL",
+        imgSrc: L_POSTGRESQL,
+        skillName: "PostgreSQL",
       },
     ],
     versionControl: [

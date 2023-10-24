@@ -10,6 +10,7 @@ import { MyCarousal } from "./components/my-carousal/my-carousal.component";
 import { Title } from "./components/title-message/title-message.component";
 import { Footer } from "./components/footer/Footer";
 import { ThemeDay } from "./components/ThemeDay";
+import { Experiance } from "./components/experiance/Experiance";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Title />
       <Navbaar />
       <About />
+      <Experiance />
       <Skills />
       <Projects />
       <Contact />

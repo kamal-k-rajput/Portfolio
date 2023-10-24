@@ -15,6 +15,14 @@ const Footer = () => {
           >
             <i className="fa fa-twitter"></i>
           </a>
+          <a
+            href="https://api.whatsapp.com/send?phone=919068241331&text"
+            className="icon what's app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fa fa-whatsapp"></i>
+          </a>
 
           <a
             href="https://www.linkedin.com/in/kamal-k-rajput/"
