@@ -1,29 +1,57 @@
-h1,
-h2 {
-  color: #2a2460;
+.about-experence-container {
+  display: flex;
+  padding: 50px 5%;
+
 }
-.about-container {
-  padding: 25px;
-}
-h6, p{
+
+.about-container>div>h1 {
+  color: #FFF;
   text-align: left;
+  color: #FFF;
+  font-size: 2rem;
+  font-weight: 500;
 }
-h1 {
-  font-size: 60px;
+
+.about-container {
+  position: fixed;
+  width: 35%;
+  padding: 25px;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
-.bgi {
-  background-color: #f2f4f5;
+
+.about-container>div:nth-child(1) {
+  flex: 2;
 }
-.profile-image {
-  width: 50%;
+
+.about-container>div:nth-child(2) {
+  /* display: flex; */
+  flex: 8
+}
+
+.personal-details {
+  text-align: left;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  line-height: 1.25rem;
+  padding: 0 100px;
+  padding-left: 0;
+}
+
+.profile-image-container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+}
+
+.profile-image-container>img {
+  width: 30%;
   border: 1px solid grey;
-}
-@media (max-width: 768px) {
-  .about-container {
-    flex-direction: column;
-  }
-  h3,
-  h6 {
-    margin-top: 10px;
-  }
 }

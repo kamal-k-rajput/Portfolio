@@ -1,15 +1,14 @@
 import React from "react";
-import { Row, Col, Card, Image } from "react-bootstrap";
+import { Image } from "react-bootstrap";
 
-import "./Skills.css";
 import {
-  L_CSS3,
-  L_HTML5,
   L_CREATEJS,
+  L_CSS3,
   L_EXPRESS,
   L_GIT,
   L_GITHUB_PAGES,
   L_HEROKU,
+  L_HTML5,
   L_JAVASCRIPT,
   L_MATERIALUI,
   L_MONGODB,
@@ -22,6 +21,7 @@ import {
   L_TYPESCRIPT,
   L_VERCEL,
 } from "../assets";
+import "./Skills.css";
 
 const Skills = () => {
   const skills = {
@@ -140,9 +140,9 @@ const Skills = () => {
       },
       {
         link: "https://www.postgresql.org/",
-        imgAltText: "PostgreSQL",
+        imgAltText: "PostgresSQL",
         imgSrc: L_POSTGRESQL,
-        skillName: "PostgreSQL",
+        skillName: "PostgresSQL",
       },
     ],
     versionControl: [
@@ -155,197 +155,98 @@ const Skills = () => {
     ],
   };
   return (
-    <div className="skill-container">
-      <div className="pt-3 pb-3 width-container" id="skills">
-        <h1 className="text-center font-details-b pb-4">TECH SKILLS</h1>
-        {/* <CardDeck> */}
-        <Row className="d-flex justify-content-around">
-          {/* Frontend */}
-          <Col md={4}>
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                {/* Frontend */}
-                <Card.Title className="text-center  card-title">
-                  Frontend
-                </Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  {skills.frontend.map((skill, index) => (
-                    <span className="p-2" key={index}>
-                      <a
-                        className="text-dark text-decoration-none"
-                        href={skill.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Image
-                          src={skill.imgSrc}
-                          alt={skill.imgAltText}
-                          rounded
-                          className="image-style m-1"
-                        ></Image>{" "}
-                        {skill.skillName}
-                      </a>
-                    </span>
-                  ))}
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
+    <div id="skills">
+      <hr></hr>
 
-          {/* Backend */}
-          <Col md={4}>
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">
-                  Backend
-                </Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  {skills.backend.map((skill, index) => (
-                    <span className="p-2" key={index}>
-                      <a
-                        className="text-dark text-decoration-none"
-                        href={skill.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Image
-                          src={skill.imgSrc}
-                          alt={skill.imgAltText}
-                          rounded
-                          className="image-style m-1"
-                        ></Image>{" "}
-                        {skill.skillName}
-                      </a>
-                    </span>
-                  ))}
-                </Card.Text>
-              </Card.Body>
-            </Card>
+      <h1>Tech Skills</h1>
+      <h3>Front end</h3>
+      <div className="tech-skills">
+        {skills.frontend.map((skill, index) => (
+          <span className="p-1" key={index}>
+            <a
+              className="text-light text-decoration-none"
+              href={skill.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src={skill.imgSrc}
+                alt={skill.imgAltText}
+                rounded
+                className="image-style m-3"
+              ></Image>{" "}
+              {skill.skillName}
+            </a>
+          </span>
+        ))}
+      </div>
+      <hr></hr>
+      <h3>Backend</h3>
+      <div className="tech-skills">
+        {skills.backend.map((skill, index) => (
+          <span className="p-1" key={index}>
+            <a
+              className="text-light text-decoration-none"
+              href={skill.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src={skill.imgSrc}
+                alt={skill.imgAltText}
+                rounded
+                className="image-style m-3"
+              ></Image>{" "}
+              {skill.skillName}
+            </a>
+          </span>
+        ))}
+      </div>
+      <hr></hr>
 
-            {/* Hosting Platforms */}
-            <Card className="focus mt-2 mb-2 ">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">
-                  Hosting Platforms
-                </Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  {skills.hostingPlatforms.map((skill, index) => (
-                    <span className="p-2" key={index}>
-                      <a
-                        className="text-dark text-decoration-none"
-                        href={skill.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Image
-                          src={skill.imgSrc}
-                          alt={skill.imgAltText}
-                          rounded
-                          className="image-style m-1"
-                        ></Image>{" "}
-                        {skill.skillName}
-                      </a>
-                    </span>
-                  ))}
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
+      <h3>Hosting Plateforms</h3>
+      <div className="tech-skills">
+        {skills.hostingPlatforms.map((skill, index) => (
+          <span className="p-1" key={index}>
+            <a
+              className="text-light text-decoration-none"
+              href={skill.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src={skill.imgSrc}
+                alt={skill.imgAltText}
+                rounded
+                className="image-style m-3"
+              ></Image>{" "}
+              {skill.skillName}
+            </a>
+          </span>
+        ))}
+      </div>
+      <hr></hr>
 
-          {/* Programming Languages */}
-          <Col md={4}>
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">
-                  Programming Languages
-                </Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  {skills.programmingLanguages.map((skill, index) => (
-                    <span className="p-2" key={index}>
-                      <a
-                        className="text-dark text-decoration-none"
-                        href={skill.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Image
-                          src={skill.imgSrc}
-                          alt={skill.imgAltText}
-                          rounded
-                          className="image-style m-1"
-                        ></Image>{" "}
-                        {skill.skillName}
-                      </a>
-                    </span>
-                  ))}
-                </Card.Text>
-              </Card.Body>
-            </Card>
-
-            {/* Database */}
-
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">
-                  Database
-                </Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  {skills.databases.map((skill, index) => (
-                    <span className="p-2" key={index}>
-                      <a
-                        className="text-dark text-decoration-none"
-                        href={skill.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Image
-                          src={skill.imgSrc}
-                          alt={skill.imgAltText}
-                          rounded
-                          className="image-style m-1"
-                        ></Image>{" "}
-                        {skill.skillName}
-                      </a>
-                    </span>
-                  ))}
-                </Card.Text>
-              </Card.Body>
-            </Card>
-            {/* Version Control */}
-
-            <Card className="focus mt-2 mb-2">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">
-                  Version <br /> Control{" "}
-                </Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  <span className="p-2">
-                    <a
-                      className="text-dark text-decoration-none"
-                      href={skills.versionControl[0].link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Image
-                        src={skills.versionControl[0].imgSrc}
-                        alt={skills.versionControl[0].imgAltText}
-                        rounded
-                        className="image-style m-1"
-                      ></Image>{" "}
-                      {skills.versionControl[0].skillName}
-                    </a>
-                  </span>
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
+      <h3>Datebases</h3>
+      <div className="tech-skills">
+        {skills.databases.map((skill, index) => (
+          <span className="p-1" key={index}>
+            <a
+              className="text-light text-decoration-none"
+              href={skill.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src={skill.imgSrc}
+                alt={skill.imgAltText}
+                rounded
+                className="image-style m-3"
+              ></Image>{" "}
+              {skill.skillName}
+            </a>
+          </span>
+        ))}
       </div>
     </div>
   );

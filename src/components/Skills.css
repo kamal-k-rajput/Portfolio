@@ -2,43 +2,25 @@
   transition: transform 0.3s;
 }
 
-.skill-container {
-  /* background-color:red; */
-  background: rgb(12, 0, 17);
-  background: linear-gradient(90deg, rgba(12, 0, 17, 1) 13%, rgba(70, 9, 121, 1) 52%, rgba(0, 0, 0, 1) 100%);
-}
-
-.pb-4 {
-  color: #fff !important;
+.image-style {
+  background-color: #fff;
+  padding: 5px;
+  width: 3em;
 }
 
 .focus:hover {
   transform: scale(1.05);
 }
 
-.card-title {
-  font-size: 2em;
-  font-weight: 700;
+
+
+
+.tech-skills {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.image-style {
-  width: 3em;
-  /* height: 2.5em; */
-}
-
-.font-details {
-  font-size: 3em;
-  font-weight: 500;
-  color: #231d5af8;
-}
-
-.font-details-b {
-  font-size: 3em;
-  font-weight: 500;
-  color: #2b0353;
-}
-
-.width-container {
-  width: 70%;
-  margin: 0 auto;
+h3,
+h1 {
+  text-align: left;
 }

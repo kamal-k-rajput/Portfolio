@@ -32,7 +32,7 @@ export const Navbaar = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
             <Nav>
-              <Nav.Link href="#home">Home</Nav.Link>
+              {/* <Nav.Link href="#home">Home</Nav.Link> */}
               <Nav.Link eventKey={2} href="#about">
                 About
               </Nav.Link>

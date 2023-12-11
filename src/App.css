@@ -1,7 +1,14 @@
 .App {
   text-align: center;
+  background: linear-gradient(90deg, rgba(12, 0, 17, 1) 13%, rgb(42, 2, 75) 52%, rgba(0, 0, 0, 1) 100%);
+  overscroll-behavior: contain;
 }
 
 a {
   text-decoration: none;
+}
+
+body {
+  background: linear-gradient(90deg, rgba(12, 0, 17, 1) 13%, rgb(42, 2, 75) 52%, rgba(0, 0, 0, 1) 100%);
+  background-color: black;
 }

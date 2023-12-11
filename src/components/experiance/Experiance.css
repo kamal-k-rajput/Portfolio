@@ -1,6 +1,19 @@
 .experiance {
-    width: 100%;
-    height: 350px;
-    border: 2px solid red;
+    padding: 50px 50px 50px 0;
+    position: absolute;
+    right: 5%;
+    overscroll-behavior: contain;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 40px;
+    width: 45%;
 
+}
+
+.experiance>h1 {
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 500;
 }

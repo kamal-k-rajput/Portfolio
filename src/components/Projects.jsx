@@ -13,7 +13,7 @@ export const Projects = () => {
         img: expedia,
         demoLink: "https://expediacloneunit5.netlify.app/home",
         codeLink: "https://github.com/kamal-k-rajput/expedia-clone.git",
-        techstack: [
+        techs: [
           "/icons/react.svg",
           "/icons/css-3.svg",
           "/icons/javascript.svg",
@@ -30,7 +30,7 @@ export const Projects = () => {
         img: potterybarn,
         demoLink: "https://potterybarn-clone.netlify.app/",
         codeLink: "https://github.com/kamal-k-rajput/potterybarn_clone.git",
-        techstack: [
+        techs: [
           "/icons/html-5.svg",
           "/icons/css-3.svg",
           "/icons/mongodb.svg",
@@ -45,7 +45,7 @@ export const Projects = () => {
         img: sugercosmetics,
         demoLink: "https://sugar-cosmetic.netlify.app/",
         codeLink: "https://github.com/hrutugandha/Sugar_Cosmetics_Project.git",
-        techstack: [
+        techs: [
           "/icons/html-5.svg",
           "/icons/css-3.svg",
           "/icons/javascript.svg",
@@ -56,7 +56,7 @@ export const Projects = () => {
   return (
     <div className="project-container">
       <div id="projects" className="container width">
-        <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
+        <h1>PROJECTS</h1>
         <div className="row">
           {project.data.map((elem, index) => {
             return <Card key={index} data={elem} />;

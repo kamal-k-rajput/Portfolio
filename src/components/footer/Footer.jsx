@@ -5,7 +5,7 @@ import "font-awesome/css/font-awesome.min.css";
 const Footer = () => {
   return (
     <>
-      <div style={{ backgroundColor: "black" }}>
+      <div >
         <div className="wrapper">
           <a
             href="https://twitter.com/kkrjpt"
@@ -41,9 +41,9 @@ const Footer = () => {
             <i className="fa fa-github"></i>
           </a>
         </div>
-        <div style={{ color: "white", marginLeft: "10px", padding: "10px" }}>
+        {/* <div style={{ color: "white", marginLeft: "10px", padding: "10px" }}>
           Created By Kamal Kishor Rajput | © 2022. All Rights Reserved
-        </div>
+        </div> */}
       </div>
     </>
   );
