@@ -9,21 +9,22 @@ import dainik from "../assets/img/projects/dainik.png";
 import "./Project.css";
 export const Projects = () => {
   const project = {
-    data: [{
-      name: "Dainik School",
-      desc: "Dainik school is a online school, provide tution from nursery to 8th. I am only person responsible for creating frontend, backend and deploying to aws.",
-      img: dainik,
-      demoLink: "https://main.d1iq0a4liey5pk.amplifyapp.com/",
-      codeLink: "https://github.com/kamal-k-rajput/dainik_school_frontend",
-      techstack: [
-        "/icons/react.svg",
-        "/icons/css-3.svg",
-        "/icons/javascript.svg",
-        "/icons/npm.svg",
-        "/icons/bootstrap.svg",
-        "/icons/nodejs-icon.svg",
-      ],
-    },
+    data: [
+      {
+        name: "Dainik School",
+        desc: "Dainik school is a online school, provide tution from nursery to 8th. I am only person responsible for creating frontend, backend and deploying to aws.",
+        img: dainik,
+        demoLink: "https://main.d1298x39bwmltq.amplifyapp.com/",
+        codeLink: "https://github.com/kamal-k-rajput/dainik_school_frontend",
+        techstack: [
+          "/icons/react.svg",
+          "/icons/css-3.svg",
+          "/icons/javascript.svg",
+          "/icons/npm.svg",
+          "/icons/bootstrap.svg",
+          "/icons/nodejs-icon.svg",
+        ],
+      },
       {
         name: "Yogm Hospital",
         desc: "Yogm hospital provide healthcare service at two diffrent locations. ",
