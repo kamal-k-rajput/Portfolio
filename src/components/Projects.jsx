@@ -3,10 +3,43 @@ import { Card } from "./Card";
 import potterybarn from "../assets/img/projects/potterybarn.png";
 import sugercosmetics from "../assets/img/projects/sugarcosmetics.png";
 import expedia from "../assets/img/projects/expedia.png";
+import yogm from "../assets/img/projects/yogm.png";
+import dainik from "../assets/img/projects/dainik.png";
+
 import "./Project.css";
 export const Projects = () => {
   const project = {
     data: [
+      {
+        name: "Dainik School",
+        desc: "Dainik school is a online school, provide tution from nursery to 8th. I am only person responsible for creating frontend, backend and deploying to aws.",
+        img: dainik,
+        demoLink: "https://main.d1298x39bwmltq.amplifyapp.com/",
+        codeLink: "https://github.com/kamal-k-rajput/dainik_school_frontend",
+        techstack: [
+          "/icons/react.svg",
+          "/icons/css-3.svg",
+          "/icons/javascript.svg",
+          "/icons/npm.svg",
+          "/icons/bootstrap.svg",
+          "/icons/nodejs-icon.svg",
+        ],
+      },
+      {
+        name: "Yogm Hospital",
+        desc: "Yogm hospital provide healthcare service at two diffrent locations. ",
+        img: yogm,
+        demoLink: "https://www.yogmgroup.com",
+        codeLink: "https://github.com/kamal-k-rajput/yogm_hospital.git",
+        techstack: [
+          "/icons/react.svg",
+          "/icons/css-3.svg",
+          "/icons/javascript.svg",
+          "/icons/npm.svg",
+          "/icons/bootstrap.svg",
+          "/icons/nodejs-icon.svg",
+        ],
+      },
       {
         name: "Expedia Clone",
         desc: "Expedia is one of the fastest growing online travel portals in Asia, offering travellers an extensive selection of hotels, activities and travel services to meet every budget and activities of every kind at competitive rates..  ",
