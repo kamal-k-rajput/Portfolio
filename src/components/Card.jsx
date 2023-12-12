@@ -33,7 +33,7 @@ const Card = ({ data }) => {
         >
           Github Code
         </a>
-        {data.techs.map((elem, index) => (
+        {data.techstack.map((elem, index) => (
           <img
             key={index}
             src={elem}
