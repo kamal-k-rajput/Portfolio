@@ -30,7 +30,7 @@ const Card = ({ data }) => {
             </a>
           </div>
           <div className="d-flex justify-content-center px-5 py-3 w-100 flex-wrap">
-            {data.techstack.map((elem, index) => (
+            {data.techstack?.map((elem, index) => (
               <img
                 key={index}
                 src={elem}
