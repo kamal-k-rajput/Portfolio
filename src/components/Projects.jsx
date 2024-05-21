@@ -29,7 +29,7 @@ export const Projects = () => {
         name: "Yogm Hospital",
         desc: "Yogm hospital provide healthcare service at two diffrent locations. ",
         img: yogm,
-        demoLink: "https://www.yogmgroup.com",
+        demoLink: "https://main.d2u16hs6j0hp4i.amplifyapp.com/",
         codeLink: "https://github.com/kamal-k-rajput/yogm_hospital.git",
         techstack: [
           "/icons/react.svg",
