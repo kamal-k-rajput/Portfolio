@@ -1,0 +1,9 @@
+#projects>.row>div {
+    border: 2px solid red;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+#projects>.row>div :hover {
+    cursor: pointer;
+}

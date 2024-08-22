@@ -1,9 +1,45 @@
 .project-card {
   transition: transform 0.3s;
 }
+
 .project-card:hover {
   transform: scale(1.05);
 }
+
 .project-image {
   height: 250px;
+}
+
+.projects-feature-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.projects-feature-button>a {
+  border: 1px solid white;
+  color: white;
+}
+
+.projects-feature-button>a:hover {
+  color: rgb(101, 161, 250);
+}
+
+.tech-stacks {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tech-stacks {
+  padding: 10px;
+}
+
+.tech-stacks>img {
+  background-color: white;
+  padding: 2px;
+}
+
+.tech-stacks>img:hover {
+  background-color: rgb(221, 249, 249);
 }

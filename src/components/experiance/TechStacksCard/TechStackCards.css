@@ -8,7 +8,10 @@
     margin-top: .35rem;
     line-height: 1.625;
     margin-right: .5rem;
+}
 
+.job-tech-stacks>span:hover {
+    border: 1px solid rosybrown;
 }
 
 .job-tech-stacks {
