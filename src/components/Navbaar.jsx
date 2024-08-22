@@ -2,7 +2,7 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 import "./Navbar.css";
 import "font-awesome/css/font-awesome.min.css";
 import { Button } from "react-bootstrap";
-import resume from "../assets/files/resume.pdf";
+import resume from "../assets/files/kamal_kishor_rajput.nodejs.pdf";
 export const Navbaar = () => {
   return (
     <div className="navbar-container">
