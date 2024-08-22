@@ -41,6 +41,12 @@ export const Navbaar = () => {
               <Nav.Link eventKey={2} href="#contact">
                 Contact
               </Nav.Link>
+              <Nav.Link
+                eventKey={2}
+                href="https://work-branch-portfolio.d3ghyjc9c1wf3b.amplifyapp.com/"
+              >
+                Update
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
