@@ -16,3 +16,5 @@ export { default as L_NETLIFY } from "./img/skills/netlify.svg";
 export { default as L_CREATEJS } from "./img/skills/createjs.svg";
 export { default as L_POSTGRESQL } from "./img/skills/postgresql.svg";
 export { default as L_TYPESCRIPT } from "./img/skills/typescript.svg";
+export { default as L_AWS } from "./img/skills/aws.svg";
+export { default as L_NEXTJS } from "./img/skills/Next.js.svg";

@@ -26,10 +26,25 @@ export const Projects = () => {
         ],
       },
       {
-        name: "Yogm Hospital",
+        name: "Yogm Hospital Etawah",
         desc: "Yogm hospital provide healthcare service at two diffrent locations. ",
         img: yogm,
-        demoLink: "https://www.yogmgroup.com",
+        demoLink: "https://ssrgroupofexcellence.com/",
+        codeLink: "https://github.com/kamal-k-rajput/yogm_client_v1/",
+        techstack: [
+          "/icons/react.svg",
+          "/icons/css-3.svg",
+          "/icons/javascript.svg",
+          "/icons/npm.svg",
+          "/icons/nodejs-icon.svg",
+          "/icons/Next.js.svg",
+        ],
+      },
+      {
+        name: "Yogm Hospital Bidhuna",
+        desc: "Yogm hospital provide healthcare service at two diffrent locations. ",
+        img: yogm,
+        demoLink: "https://main.d2u16hs6j0hp4i.amplifyapp.com/",
         codeLink: "https://github.com/kamal-k-rajput/yogm_hospital.git",
         techstack: [
           "/icons/react.svg",

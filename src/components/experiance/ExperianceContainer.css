@@ -30,6 +30,15 @@
     display: flex;
 }
 
+.experience-details>.list {
+    /* border: 2px solid red */
+}
+
+.experience-details>.list>li {
+    /* border: 2px solid green; */
+    text-align: left;
+}
+
 .company-name {
     line-height: 1.25;
     font-weight: 500;

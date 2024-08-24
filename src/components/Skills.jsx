@@ -20,6 +20,8 @@ import {
   L_REDUX,
   L_TYPESCRIPT,
   L_VERCEL,
+  L_AWS,
+  L_NEXTJS,
 } from "../assets";
 import "./Skills.css";
 
@@ -43,6 +45,18 @@ const Skills = () => {
         imgAltText: "JavaScript",
         imgSrc: L_JAVASCRIPT,
         skillName: "JavaScript",
+      },
+      {
+        link: "https://www.typescriptlang.org/",
+        imgAltText: "typescript",
+        imgSrc: L_TYPESCRIPT,
+        skillName: "Typescript",
+      },
+      {
+        link: "https://nextjs.org/",
+        imgAltText: "next js",
+        imgSrc: L_NEXTJS,
+        skillName: "Next JS",
       },
       {
         link: "https://reactjs.org/",
@@ -78,6 +92,12 @@ const Skills = () => {
 
     backend: [
       {
+        link: "https://aws.amazon.com/",
+        imgAltText: "Amazon web services",
+        imgSrc: L_AWS,
+        skillName: "Amazon web services",
+      },
+      {
         link: "https://nodejs.org/en/",
         imgAltText: "Node.js",
         imgSrc: L_NODE_JS,
@@ -91,6 +111,12 @@ const Skills = () => {
       },
     ],
     hostingPlatforms: [
+      {
+        link: "https://aws.amazon.com/",
+        imgAltText: "Amazon web services",
+        imgSrc: L_AWS,
+        skillName: "Amazon web services",
+      },
       {
         link: "https://www.heroku.com/",
         imgAltText: "Heroku",

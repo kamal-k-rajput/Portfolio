@@ -18,6 +18,11 @@ export const ExperienceContainer = ({ details }) => {
           <div className="company-name">{details.companyName}</div>
           <div className="job-position">{details.position}</div>
           <div className="job-description">{details.description}</div>
+          <ul className="list">
+            {details.bulletPoints.map((point) => {
+              return <li>{point}</li>;
+            })}
+          </ul>
           <TechStackCards technology={details.tech} />
         </div>
       </div>
