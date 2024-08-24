@@ -21,6 +21,9 @@ const About = () => {
             <a href={resume} target="_blank" rel="noreferrer">
               Download Resume
             </a>
+            <div>
+              Want to Play Game <a href="/shooter">Click here</a>
+            </div>
           </div>
         </div>
       </div>

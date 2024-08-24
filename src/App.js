@@ -9,7 +9,7 @@ function App() {
       className="App"
       style={{
         background:
-          "radial-gradient(600px at 576px 3314px, rgba(29, 78, 216, 0.15), transparent 80%);",
+          "radial-gradient(600px at 576px 3314px, rgba(29, 78, 216, 0.15), transparent 80%)",
       }}
       onMouseMove={(e) => {
         console.log("xy", e.clientX, e.clientY);
