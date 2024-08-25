@@ -41,7 +41,7 @@ export const Navbaar = () => {
               <Nav.Link eventKey={2} href="#contact">
                 Contact
               </Nav.Link>
-              <Nav.Link eventKey={2} href="https:www.kamalkishor.in">
+              <Nav.Link eventKey={2} href="https://www.kamalkishor.in">
                 Update
               </Nav.Link>
             </Nav>
