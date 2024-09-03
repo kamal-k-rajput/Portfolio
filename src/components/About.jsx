@@ -3,6 +3,7 @@ import "./About.css";
 import { Experiance } from "./experiance/Experiance";
 import { Footer } from "./footer/Footer";
 import resume from "../assets/files/kamal_kishor_rajput.nodejs.pdf";
+import { CurrentTime } from "./CurrentTime";
 
 const About = () => {
   return (
@@ -18,9 +19,12 @@ const About = () => {
             actively learning new tools and technologies in the field of web
             development and software engineering.
             <Footer />
-            <a href={resume} target="_blank" rel="noreferrer">
-              Download Resume
-            </a>
+            <b>
+              <a href={resume} target="_blank" rel="noreferrer">
+                Download Resume
+              </a>
+            </b>
+            <CurrentTime />
           </div>
         </div>
       </div>
