@@ -1,0 +1,29 @@
+.songList {
+    color: wheat;
+    margin: 10px 20px;
+}
+
+.unorderred {
+    display: inline-block;
+    text-align: left;
+}
+
+.play-button {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 1px 5px;
+}
+
+.singer {
+    color: rgb(139, 92, 21)
+}
+
+.main-heading {
+    color: rgb(16, 115, 192)
+}
+
+.sub-heading {
+    color: aqua;
+    text-align: left
+}
