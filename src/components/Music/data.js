@@ -7,11 +7,12 @@ import { maithili } from "./maithili";
 import { punjabi } from "./punjabi";
 import { qawwali } from "./Qawwali";
 import { uncategorised } from "./song";
+import { sufi } from "./sufi";
 
 export const songsdata = [
   { list: qawwali, title: "Qawwali" },
   { list: gazal, title: "Ghazals" },
-  // { list: qawwali, title: "Sufi" },
+  { list: sufi, title: "Sufi" },
   { list: uncategorised, title: "Un Categorised" },
   { list: bhojpuriSongs, title: "Bhojpuri songs" },
   { list: maithili, title: "Maithili songs" },

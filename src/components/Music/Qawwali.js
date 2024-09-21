@@ -148,4 +148,12 @@ export const qawwali = [
     singer: `${SINGER.USTAD_FARID_AYAZ}, ${SINGER.ABU_MUHAMMAD}`,
     tags: [TAGS.KABIR],
   },
+  {
+    link: "https://www.youtube.com/watch?v=q89NdfH-P8Q",
+    title: "Kehna Ghalat Ghalat To Chupaana Sehi Sehi",
+    id: 19,
+    videoCode: "q89NdfH-P8Q",
+    singer: `${SINGER.N_F_A_K}`,
+    tags: [],
+  },
 ];
