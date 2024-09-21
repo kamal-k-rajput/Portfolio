@@ -23,4 +23,7 @@ export const SINGER = {
   MALINI_AWASTHI: "Malini Awasthi",
   JAGJIT_SINGH: "Jagjit Singh",
   CHITRA_SINGH: "Chitra Singh",
+  ABU_MUHAMMAD: "Abu Muhammad",
+  USTAD_VILAYAT_KHAN: "Ustad Vilayat Khan",
+  USTAD_BISMILLAH_KHAN: "Ustad Bismillah Khan",
 };

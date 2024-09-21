@@ -91,4 +91,10 @@ export const uncategorised = [
     link: "https://www.youtube.com/watch?v=IJeSR-LJBnk",
     singer: `${SINGER.FAHEEM_ABDULLAH}, ${SINGER.RAUHAN_MALIK}`,
   },
+  {
+    id: 16,
+    title: "Tumhi Meri Mandir Tumhi Meri Pooja",
+    link: "https://www.youtube.com/watch?v=zmwpWYwYKpw",
+    singer: `${SINGER.LATA_MANGESHKAR}`,
+  },
 ];
