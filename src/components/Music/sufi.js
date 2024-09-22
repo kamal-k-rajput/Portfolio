@@ -11,4 +11,20 @@ export const sufi = [
     tags: [TAGS.KABIR, TAGS.SUFI],
     writer: "Amir Khushro",
   },
+  {
+    link: "https://www.youtube.com/watch?v=LN6kt-YxszA",
+    title: "Tum Ek Gorakh Dhanda Hos",
+    id: 2,
+    videoCode: "LN6kt-YxszA",
+    singer: `${SINGER.N_F_A_K}`,
+    tags: [TAGS.SUFI],
+  },
+  {
+    link: "https://www.youtube.com/watch?v=xxjKw7HZQEI",
+    title: "Shahbaz Qalandar (Lal Meri Pat Rakhio) ",
+    id: 3,
+    videoCode: "xxjKw7HZQEI",
+    singer: `${SINGER.N_F_A_K}`,
+    tags: [TAGS.SUFI],
+  },
 ];
